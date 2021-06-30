@@ -11,3 +11,8 @@ puts b
 puts factorial(6)
 puts 1.0/ramanujan(2)
 puts to_ints("#314159")
+catch :sign do
+    puts to_ints("#647484")
+    throw :sign
+    puts "NG"
+end
