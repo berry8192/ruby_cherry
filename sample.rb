@@ -26,3 +26,6 @@ old_syntax = <<~TEXT
 }
 TEXT
 puts convert_hash_syntax(old_syntax)
+
+puts b.class
+puts b.is_a?(String)
